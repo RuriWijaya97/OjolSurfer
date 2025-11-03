@@ -3,6 +3,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
+    public float moveSpeedClamp = 40f;
+    public float incrementSpeed = 1.0005f;
     public float jumpForce = 5f;
     
     public float laneDistance = 2f;
@@ -42,6 +44,12 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
+
+        if (moveSpeed < moveSpeedClamp)
+        {
+            moveSpeed += incrementSpeed;
+        }
+
 
     }
     private void ChangeLane(int direction)
