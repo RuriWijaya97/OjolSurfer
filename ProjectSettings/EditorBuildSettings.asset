@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes: []
   m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 9a3a54723ab612a498ea14a8502785c9, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6194a743870311b4c874bfdbbd093e9b, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 05ec3f33de04db54f819c113ad82e4d5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 16f2df1f35b43894c99b0995cf0410bb, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 0}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 194abe9a0691b9c4f9dfd10f45a25e49, type: 2}
   m_UseUCBPForAssetBundles: 0
