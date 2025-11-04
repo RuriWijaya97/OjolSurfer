@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Map/Menu.unity
+    guid: 3d0ecd0ace275ac42a0fff84bb1d923e
+  - enabled: 1
+    path: Assets/Map/Level1.unity
+    guid: b5a8139f7f9e6834ea05fd635a564f5a
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 9a3a54723ab612a498ea14a8502785c9, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 6194a743870311b4c874bfdbbd093e9b, type: 2}
