@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -6,13 +7,15 @@ public class PlayerController : MonoBehaviour
     public float moveSpeedClamp = 40f;
     public float incrementSpeed = 1.0005f;
     public float jumpForce = 5f;
+    int currentJump;
+    const int maxJump = 2;
     
     public float laneDistance = 2f;
     public float laneSwitchSpeed = 10f;
     private int currentLane = 0;
 
     private Rigidbody rb;
-    private bool isGrounded;
+    private bool isGrounded = true;
     private Vector3 targetPosition;
 
     void Start()
@@ -40,17 +43,18 @@ public class PlayerController : MonoBehaviour
         Vector3 newPos = new Vector3(transform.position.x, transform.position.y, targetPosition.z);
         transform.position = Vector3.Lerp(transform.position, newPos, Time.deltaTime * laneSwitchSpeed);
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && (isGrounded || maxJump > currentJump))
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+            isGrounded = false;
+            currentJump++;
         }
 
         if (moveSpeed < moveSpeedClamp)
         {
             moveSpeed += incrementSpeed;
+            currentJump = 0;
         }
-
-
     }
     private void ChangeLane(int direction)
     {
@@ -64,6 +68,11 @@ public class PlayerController : MonoBehaviour
         {
             Time.timeScale = 0;
             Debug.Log("Game Over! Kena Rintangan.");
+        }
+
+        if (Other.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = true;
         }
     }
 }
