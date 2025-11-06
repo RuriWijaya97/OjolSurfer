@@ -3887,6 +3887,7 @@ Transform:
   - {fileID: 1621552375}
   - {fileID: 1605347587}
   - {fileID: 1704015174}
+  - {fileID: 1170262390}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &948897415
@@ -4912,6 +4913,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.552, y: 5.628706, z: 0.59999996}
   m_Center: {x: 0.00054146344, y: 2.814299, z: -0.025180217}
+--- !u!4 &1170262390 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+  m_PrefabInstance: {fileID: 1287773125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1198893644
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5314,6 +5320,79 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2037333832}
   m_SourcePrefab: {fileID: 100100000, guid: 93d0d450ec8b42e46b724bf2bbee330b, type: 3}
+--- !u!1001 &1287773125
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 948897414}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_Name
+      value: Abang Ojol Running Cycle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: cde41dff8b1212a4793c6dc632c2e8c0, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
 --- !u!1001 &1298488215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7376,6 +7455,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5a8e754254b9e8a469421f15e6e665fc, type: 3}
       propertyPath: m_Name
       value: Abang Ojol TPose
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5a8e754254b9e8a469421f15e6e665fc, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
