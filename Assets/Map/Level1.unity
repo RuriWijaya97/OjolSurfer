@@ -3811,10 +3811,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.3626716
-  m_Height: 1.9134696
+  m_Radius: 0.33342505
+  m_Height: 1.9265755
   m_Direction: 1
-  m_Center: {x: -0.14124984, y: -0.18103325, z: 0.03176117}
+  m_Center: {x: -0.019783556, y: -0.17448026, z: 0.08519995}
 --- !u!23 &948897412
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4851,12 +4851,16 @@ PrefabInstance:
       value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9772
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.8384601
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.220001
+      value: 10.8384
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b74c48c2e73e17c418c9394124b75daf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9162,7 +9166,7 @@ GameObject:
   - component: {fileID: 2009698897}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

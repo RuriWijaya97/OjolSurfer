@@ -6,7 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Collectible
-  - Camera
+  - Ground
   layers:
   - Default
   - TransparentFX
