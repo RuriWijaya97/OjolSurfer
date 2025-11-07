@@ -1,19 +1,20 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
 public class CollectibleSystem : MonoBehaviour
 {
-    //Script Input di Koin
+    public int Coin;
+    public GameManager GM;
+
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Collectible"))
         {
-            //Fungsi Menghilangkan Koin
-            Destroy(gameObject);
-
-            //(Place Holder) Fungsi Menambah Skor atau Jumlah Koin Terkumpul
-            Debug.Log("Ambil Koin");
+            Destroy(other.gameObject);
+            Coin++;
+            GM.UpdateCoinText(Coin);
         }
     }
 }

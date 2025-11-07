@@ -1937,8 +1937,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980765}
-        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
+      - m_Target: {fileID: 2046980766}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -2985,8 +2985,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980765}
-        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
+      - m_Target: {fileID: 2046980766}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -3851,8 +3851,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980765}
-        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
+      - m_Target: {fileID: 2046980766}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -4280,6 +4280,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2046980764}
   - component: {fileID: 2046980765}
+  - component: {fileID: 2046980766}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged

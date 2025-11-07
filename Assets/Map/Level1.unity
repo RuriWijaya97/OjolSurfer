@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (35)
@@ -171,7 +175,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -229,6 +234,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (39)
@@ -273,7 +282,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -387,6 +397,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (12)
@@ -431,7 +445,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -493,6 +508,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture
@@ -537,7 +556,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -892,6 +912,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (1)
@@ -936,7 +960,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -949,6 +974,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (2)
@@ -993,7 +1022,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1209,6 +1239,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (31)
@@ -1253,7 +1287,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1462,6 +1497,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (5)
@@ -1506,11 +1545,148 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+--- !u!1 &399084462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 399084463}
+  - component: {fileID: 399084465}
+  - component: {fileID: 399084464}
+  m_Layer: 5
+  m_Name: Text (TMP) (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &399084463
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399084462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2049451337}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -298.83282, y: -85.4021}
+  m_SizeDelta: {x: 473.1292, y: 96.8931}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &399084464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399084462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7c06fccc90504f94ab519b428041212e, type: 2}
+  m_sharedMaterial: {fileID: 6238288971777136863, guid: 7c06fccc90504f94ab519b428041212e, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 78.56
+  m_fontSizeBase: 78.56
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 4
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &399084465
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 399084462}
+  m_CullTransparentMesh: 1
 --- !u!1001 &406083894
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1617,6 +1793,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (37)
@@ -1661,7 +1841,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1730,6 +1911,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (25)
@@ -1774,7 +1959,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1911,6 +2097,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (17)
@@ -1955,7 +2145,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2074,6 +2265,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (7)
@@ -2118,7 +2313,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2229,6 +2425,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (34)
@@ -2273,7 +2473,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2534,6 +2735,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (20)
@@ -2578,7 +2783,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2870,6 +3076,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (15)
@@ -2914,7 +3124,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2979,6 +3190,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (3)
@@ -3023,7 +3238,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3130,6 +3346,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (21)
@@ -3174,7 +3394,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3187,6 +3408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (22)
@@ -3231,7 +3456,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3758,6 +3984,7 @@ GameObject:
   - component: {fileID: 948897411}
   - component: {fileID: 948897410}
   - component: {fileID: 948897415}
+  - component: {fileID: 948897416}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3908,6 +4135,20 @@ MonoBehaviour:
   jumpForce: 5
   laneDistance: 2
   laneSwitchSpeed: 10
+--- !u!114 &948897416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948897408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7573ad5dcf2b0c64c8874986a671ed17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollectibleSystem
+  Coin: 0
+  GM: {fileID: 1583135186}
 --- !u!1 &956625791 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 2857b989c828950448ead142ca28e4a3, type: 3}
@@ -3987,6 +4228,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (6)
@@ -4031,7 +4276,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4044,6 +4290,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (26)
@@ -4088,7 +4338,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4183,6 +4434,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (13)
@@ -4227,7 +4482,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4394,6 +4650,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (38)
@@ -4438,7 +4698,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5350,7 +5611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -0.955
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 04ec98c84534c014c9594b9e37d5bbd1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5405,6 +5666,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (30)
@@ -5449,7 +5714,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5488,6 +5754,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (18)
@@ -5532,7 +5802,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5774,6 +6045,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (10)
@@ -5818,7 +6093,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6524,6 +6800,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (23)
@@ -6568,7 +6848,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6622,6 +6903,142 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f32dfddb033d3e40b5841bc53cc1689, type: 3}
+--- !u!1 &1475074851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1475074852}
+  - component: {fileID: 1475074854}
+  - component: {fileID: 1475074853}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1475074852
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475074851}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2049451337}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -85.4021}
+  m_SizeDelta: {x: 535.3948, y: 96.8931}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1475074853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475074851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 0m
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7c06fccc90504f94ab519b428041212e, type: 2}
+  m_sharedMaterial: {fileID: 6238288971777136863, guid: 7c06fccc90504f94ab519b428041212e, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 78.56
+  m_fontSizeBase: 78.56
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1475074854
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1475074851}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1480890100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6679,6 +7096,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (16)
@@ -6723,7 +7144,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6736,6 +7158,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (28)
@@ -6780,7 +7206,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6845,6 +7272,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (4)
@@ -6889,7 +7320,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6902,6 +7334,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (24)
@@ -6946,7 +7382,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -6959,6 +7396,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (29)
@@ -7003,7 +7444,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7110,6 +7552,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (27)
@@ -7154,7 +7600,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7214,6 +7661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a1da0931b6dd624f919dc73628d4d04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  coinText: {fileID: 399084464}
 --- !u!4 &1583135187
 Transform:
   m_ObjectHideFlags: 0
@@ -7237,6 +7685,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (8)
@@ -7281,7 +7733,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -7579,6 +8032,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1651907967
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1651907968}
+  - component: {fileID: 1651907970}
+  - component: {fileID: 1651907969}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1651907968
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651907967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2049451337}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -257, y: -83.849}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651907969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651907967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 45d4ac8ff6d54c24b8996d1655f050c9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1651907970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1651907967}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1656736734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8376,6 +8904,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (14)
@@ -8420,7 +8952,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8609,6 +9142,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (33)
@@ -8653,7 +9190,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8692,6 +9230,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (9)
@@ -8736,7 +9278,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -8903,6 +9446,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (40)
@@ -8947,7 +9494,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9271,6 +9819,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (32)
@@ -9315,7 +9867,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9354,6 +9907,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (19)
@@ -9398,7 +9955,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9496,7 +10054,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1475074852}
+  - {fileID: 399084463}
+  - {fileID: 1651907968}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -9561,6 +10122,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (36)
@@ -9605,7 +10170,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -9667,6 +10233,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
+      propertyPath: GM
+      value: 
+      objectReference: {fileID: 1583135186}
     - target: {fileID: 6275927492869124333, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
       propertyPath: m_Name
       value: Coin with Texture (11)
@@ -9711,7 +10281,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5074685723948354142, guid: 9d594c0c43a656943a3ccd8c9b200fa8, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
