@@ -249,7 +249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &73778218
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1937,8 +1937,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980766}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+      - m_Target: {fileID: 2046980765}
+        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -2985,8 +2985,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980766}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+      - m_Target: {fileID: 2046980765}
+        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
@@ -3851,8 +3851,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2046980766}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+      - m_Target: {fileID: 2046980765}
+        m_TargetAssemblyTypeName: ScriptController, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 5
         m_Arguments:
@@ -4280,7 +4280,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2046980764}
   - component: {fileID: 2046980765}
-  - component: {fileID: 2046980766}
   m_Layer: 0
   m_Name: MenuManager
   m_TagString: Untagged
@@ -4312,7 +4311,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2046980762}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c06c5d7ef4ffb894a9215fbc8944a007, type: 3}
+  m_Script: {fileID: 11500000, guid: 4b7ba8c7fcc6f2e4f8ff82df9dbedbf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScriptController
 --- !u!1001 &2071490894
