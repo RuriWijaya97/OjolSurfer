@@ -1,16 +1,18 @@
 using UnityEngine;
-
+using TMPro;
 public class GameManager : MonoBehaviour
 {
+    public TMP_Text coinText; 
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    public void UpdateCoinText(int coinVal)
     {
-        
+        coinText.text = coinVal.ToString();
     }
+
 }
