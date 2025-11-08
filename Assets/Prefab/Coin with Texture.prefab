@@ -62,31 +62,19 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5074685723948354142}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 5217465697447534941}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4709130801423127599}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8995191842223864015}
   m_SourcePrefab: {fileID: 100100000, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
 --- !u!1 &6275927492869124333 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3b20b99b00aaf5747af2181525c50944, type: 3}
   m_PrefabInstance: {fileID: 6618597226495036860}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5074685723948354142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6275927492869124333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7573ad5dcf2b0c64c8874986a671ed17, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CollectibleSystem
 --- !u!65 &5217465697447534941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -130,3 +118,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8995191842223864015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6275927492869124333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7573ad5dcf2b0c64c8874986a671ed17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollectibleSystem
+  Coin: 0
+  GM: {fileID: 0}
