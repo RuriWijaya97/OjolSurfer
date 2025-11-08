@@ -55,6 +55,7 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && (isGrounded || maxJump > currentJump))
         {
+            animator.SetBool("Jumping", true);
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             isGrounded = false;
             currentJump++;
@@ -93,6 +94,7 @@ public class PlayerController : MonoBehaviour
 
         if (Other.gameObject.CompareTag("Ground"))
         {
+            animator.SetBool("Jumping", false);
             isGrounded = true;
         }
     }
