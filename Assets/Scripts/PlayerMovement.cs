@@ -1,5 +1,6 @@
+using System.Collections.Generic;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,9 +19,13 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded = true;
     private Vector3 targetPosition;
 
+    public Animator animator;
+    CapsuleCollider cc;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        cc = GetComponent<CapsuleCollider>();
         targetPosition = transform.position; 
     }
 
@@ -38,6 +43,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             ChangeLane(1);
+        }
+
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            StartCoroutine(OjolSliding());
         }
 
         Vector3 newPos = new Vector3(transform.position.x, transform.position.y, targetPosition.z);
@@ -60,6 +70,17 @@ public class PlayerController : MonoBehaviour
     {
         currentLane = Mathf.Clamp(currentLane + direction, -1, 1);
         targetPosition = new Vector3(targetPosition.x, targetPosition.y, currentLane * laneDistance);
+    }
+
+    private IEnumerator OjolSliding()
+    {
+        animator.SetBool("Sliding", true);
+        cc.center = new Vector3(-0.03322732f, -0.5103214f, 0.01278728f);
+        cc.height = 0.838563f;
+        yield return new WaitForSeconds(1.3f);
+        animator.SetBool("Sliding", false);
+        cc.center = new Vector3(-0.03322732f, -0.07137185f, 0.01278728f);
+        cc.height = 1.716462f;
     }
 
     void OnCollisionEnter(Collision Other)
