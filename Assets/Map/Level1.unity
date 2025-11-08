@@ -4789,8 +4789,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 5
-  moveSpeedClamp: 20
-  incrementSpeed: 0.0016
+  moveSpeedClamp: 15
+  incrementSpeed: 0.001
   jumpForce: 5
   laneDistance: 2
   laneSwitchSpeed: 10

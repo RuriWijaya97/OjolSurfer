@@ -23,4 +23,14 @@ using UnityEngine;
         {
             sfxSource.PlayOneShot(clip);
         }
+
+        public void setSFXVolume(float vol)
+        {
+            sfxSource.volume = vol;
+        }
+
+    public void muteBGM()
+        {
+        musicSource.volume = 0.0f;
+    }
     }
