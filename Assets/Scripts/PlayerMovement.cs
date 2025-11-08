@@ -19,11 +19,13 @@ public class PlayerController : MonoBehaviour
     private bool isGrounded = true;
     private Vector3 targetPosition;
 
+    public GameObject PauseMenu;
     public Animator animator;
     CapsuleCollider cc;
 
     void Start()
     {
+        Time.timeScale = 1;
         rb = GetComponent<Rigidbody>();
         cc = GetComponent<CapsuleCollider>();
         targetPosition = transform.position; 
@@ -88,6 +90,7 @@ public class PlayerController : MonoBehaviour
         if (Other.gameObject.tag == "Obstacle" || transform.parent != null)
         {
             Time.timeScale = 0;
+            PauseMenu.SetActive(true);
             Debug.Log("Game Over! Kena Rintangan.");
         }
 

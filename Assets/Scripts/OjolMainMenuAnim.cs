@@ -12,10 +12,9 @@ public class OjolMainMenuAnim : MonoBehaviour
 
     void Start()
     {
+
+        Time.timeScale = 1;
     }
-
-    
-
     void Update()
     {
         float moveDistance = moveSpeed * Time.deltaTime;
