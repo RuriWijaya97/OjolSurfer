@@ -4791,7 +4791,7 @@ MonoBehaviour:
   moveSpeed: 5
   moveSpeedClamp: 15
   incrementSpeed: 0.001
-  jumpForce: 5
+  jumpForce: 8
   laneDistance: 2
   laneSwitchSpeed: 10
   animator: {fileID: 1649068859}
