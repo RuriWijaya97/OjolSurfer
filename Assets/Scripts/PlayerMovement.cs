@@ -57,10 +57,13 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space) && (isGrounded || maxJump > currentJump))
         {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            isGrounded = false;
-            currentJump++;
+            StartCoroutine(Jumping());
         }
+        //else if (isGrounded == false)
+        //{
+        //    isGrounded = true;
+        //    animator.SetBool("Jump", false);
+        //}
 
         if (moveSpeed < moveSpeedClamp)
         {
@@ -81,7 +84,7 @@ public class PlayerController : MonoBehaviour
         cc.height = 0.838563f;
         yield return new WaitForSeconds(1.3f);
         animator.SetBool("Sliding", false);
-        cc.center = new Vector3(-0.03322732f, -0.07137185f, 0.01278728f);
+        cc.center = new Vector3(-0.03322732f, -0.04953092f, 0.01278728f);
         cc.height = 1.716462f;
     }
 
@@ -94,9 +97,24 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Game Over! Kena Rintangan.");
         }
 
-        if (Other.gameObject.CompareTag("Ground"))
+        if (Other.gameObject.tag == "Ground")
         {
+            animator.SetBool("Jump", false);
             isGrounded = true;
+            Debug.Log(isGrounded);
         }
+    }
+
+    IEnumerator Jumping()
+    {
+        animator.SetBool("Jump", true);
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        isGrounded = false;
+        currentJump++;
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("Jump", false);
+        isGrounded = true;
+        Debug.Log(isGrounded);
+
     }
 }
