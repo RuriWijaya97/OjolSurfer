@@ -1512,7 +1512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OjolMainMenuAnim
   moveSpeed: 5
-  distanceToTurn: 135
+  distanceToTurn: 140
 --- !u!1001 &731948810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5102,7 +5102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   moveSpeed: 5
-  distanceToTurn: 120
+  distanceToTurn: 125
 --- !u!1001 &2071490894
 PrefabInstance:
   m_ObjectHideFlags: 0

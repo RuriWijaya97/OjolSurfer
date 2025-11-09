@@ -5,6 +5,14 @@ using System.Collections.Generic;
 public class InGameSceneController : MonoBehaviour
 {
 
+    public GameObject PauseMenu;
+    private bool pauseOn;
+
+    void Start()
+    {
+        pauseOn = false;
+    }
+
     public void ChangeScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
@@ -20,5 +28,25 @@ public class InGameSceneController : MonoBehaviour
     public void ExitGame()
     {
         Application.Quit();
+    }
+
+    void Update()
+    {
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!pauseOn)
+            {
+                Time.timeScale = 0;
+                PauseMenu.SetActive(true);
+                pauseOn = true;
+            }
+            else
+            {
+                Time.timeScale = 1;
+                PauseMenu.SetActive(false);
+                pauseOn = false;
+            }
+        }
     }
 }
