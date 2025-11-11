@@ -23,16 +23,24 @@ public class PlayerController : MonoBehaviour
     public Animator animator;
     CapsuleCollider cc;
 
+    int distanceRun;
+    public int distancePlayer;
+    public Transform playerTransform;
+    public GameManager GM;
     void Start()
     {
         Time.timeScale = 1;
         rb = GetComponent<Rigidbody>();
         cc = GetComponent<CapsuleCollider>();
-        targetPosition = transform.position; 
-    }
+        targetPosition = transform.position;
 
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        playerTransform = player.transform;
+    }
+       
     void Update()
     {
+        AddDistance();
         transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
 
         // Input Kiri
@@ -59,11 +67,6 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(Jumping());
         }
-        //else if (isGrounded == false)
-        //{
-        //    isGrounded = true;
-        //    animator.SetBool("Jump", false);
-        //}
 
         if (moveSpeed < moveSpeedClamp)
         {
@@ -80,11 +83,11 @@ public class PlayerController : MonoBehaviour
     private IEnumerator OjolSliding()
     {
         animator.SetBool("Sliding", true);
-        cc.center = new Vector3(-0.03322732f, -0.5103214f, 0.01278728f);
-        cc.height = 0.838563f;
+        cc.center = new Vector3(-0.03322732f, -0.5102046f, 0.1f);
+        cc.height = 0.8387966f;
         yield return new WaitForSeconds(1.3f);
         animator.SetBool("Sliding", false);
-        cc.center = new Vector3(-0.03322732f, -0.04953092f, 0.01278728f);
+        cc.center = new Vector3(-1.28f, -0.07137185f, 0.01278728f);
         cc.height = 1.716462f;
     }
 
@@ -116,5 +119,12 @@ public class PlayerController : MonoBehaviour
         isGrounded = true;
         Debug.Log(isGrounded);
 
+    }
+
+    public void AddDistance()
+    {
+        distanceRun = (int)playerTransform.position.x;
+        distancePlayer = Mathf.Abs(distanceRun);
+        GM.DistanceUpdate(distancePlayer);
     }
 }

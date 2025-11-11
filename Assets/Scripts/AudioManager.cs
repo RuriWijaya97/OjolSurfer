@@ -12,8 +12,8 @@ using UnityEngine;
 
         private void Start()
         {
-        musicSource.volume = 1.0f;
-        sfxSource.volume = 0.3f;
+            musicSource.volume = 1.0f;
+            sfxSource.volume = 0.3f;
         
             musicSource.clip = bgm;
             musicSource.Play();
@@ -29,8 +29,8 @@ using UnityEngine;
             sfxSource.volume = vol;
         }
 
-    public void muteBGM()
+        public void muteBGM()
         {
-        musicSource.volume = 0.0f;
-    }
+            musicSource.volume = 0.0f;
+        }
     }
