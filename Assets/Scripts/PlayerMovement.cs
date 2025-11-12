@@ -4,32 +4,38 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header ("Movement System")]
     public float moveSpeed = 5f;
     public float moveSpeedClamp = 40f;
     public float incrementSpeed = 1.0005f;
     public float jumpForce = 5f;
     int currentJump;
     const int maxJump = 2;
-    
+
+    [Header ("Pindah Sisi")]
     public float laneDistance = 2f;
     public float laneSwitchSpeed = 10f;
     private int currentLane = 0;
 
+    [Header ("Physics")]
     private Rigidbody rb;
     private bool isGrounded = true;
     private Vector3 targetPosition;
-
-    public GameObject PauseMenu;
-    public Animator animator;
     CapsuleCollider cc;
+    
+    [Header ("Pause")] public GameObject PauseMenu;
+    
+    [Header("Animator")] public Animator animator;
 
+    [Header ("Menghitung Jarak")]
     int distanceRun;
     public int distancePlayer;
     public Transform playerTransform;
-    public GameManager GM;
+    [Header("")] public GameManager GM;
+
     void Start()
     {
-        Time.timeScale = 1;
+        //Time.timeScale = 1;
         rb = GetComponent<Rigidbody>();
         cc = GetComponent<CapsuleCollider>();
         targetPosition = transform.position;

@@ -5,8 +5,11 @@ using System;
 
 public class CollectibleSystem : MonoBehaviour
 {
+    [Header ("Inisialisasi Koin")]
     public int Coin;
     public GameManager GM;
+
+    [Header ("Audio Coin")]
     AudioManager audioManager;
 
     private void Awake()
